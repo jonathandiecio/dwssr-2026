@@ -1,13 +1,7 @@
 {
-  "name": "Node.js & MongoDB CLI",
-  "build": {
-    "dockerfile": "Dockerfile"
-  },
-  "customizations": {
-    "vscode": {
-      "extensions": [
-        "mongodb.mongodb-vscode"
-      ]
-    }
+  "name": "Node.js & MongoDB",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye",
+  "features": {
+    "ghcr.io/devcontainers/features/mongo:1": {}
   }
 }
