@@ -1,5 +1,5 @@
 {
-  "name": "Node.js & MongoDB",
+  "name": "Node.js & MongoDB CLI",
   "build": {
     "dockerfile": "Dockerfile"
   },
