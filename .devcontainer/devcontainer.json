@@ -1,0 +1,13 @@
+{
+  "name": "Node.js & MongoDB",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "mongodb.mongodb-vscode"
+      ]
+    }
+  }
+}
